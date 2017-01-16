@@ -1,0 +1,194 @@
+/* Général ------------------------------------------------------------------------------------- */
+body, p, legend, label, input {
+	font: normal 8pt verdana, helvetica, sans-serif;
+}
+
+h1 {
+	font: normal 15pt verdana, helvetica, sans-serif;
+	color: blue;
+}
+
+h2 {
+	font: normal 10pt verdana, helvetica, sans-serif;
+	color: red;
+}
+
+/* Forms --------------------------------------------------------------------------------------- */
+fieldset {
+	padding: 10px;
+	border: 1px #ff7f00 solid;
+	margin: 0px 1000px 0px 0px;
+}
+
+legend {
+	font-weight: bold;
+	color: #ff7f00;
+}
+
+form label {
+	float: left;
+	width: 200px;
+	margin: 3px 0px 0px 0px;
+}
+
+form input {
+	margin: 3px 3px 0px 0px;
+	border: 1px #999 solid;
+}
+
+form input.sansLabel {
+	margin-left: 200px;
+}
+
+/* Styles et couleurs -------------------------------------------------------------------------- */
+.requis {
+	color: #c00;
+}
+
+.erreur {
+	color: #900;
+}
+
+.succes {
+	color: #090;
+}
+
+.info {
+	font-style: italic;
+	color: #0000ff;
+}
+
+/* Blocs constituants -------------------------------------------------------------------------- */
+div#menu {
+	border: 1px solid #ff7f00;
+	padding: 10px;
+	margin: 10px;
+}
+
+div#corps {
+	margin: 10px;
+}
+
+...
+
+/* Tableaux -------------------------------------------------------------------------------------*/
+.CSSTableau {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #000000;
+	-moz-border-radius-bottomleft: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	-moz-border-radius-bottomright: 25px;
+	-webkit-border-bottom-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	-moz-border-radius-topright: 25px;
+	-webkit-border-top-right-radius: 25px;
+	border-top-right-radius: 25px;
+	-moz-border-radius-topleft: 25px;
+	-webkit-border-top-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.CSSTableau table {
+	border-collapse: collapse;
+}
+
+.CSSTableau tr:last-child td:last-child {
+	-moz-border-radius-bottomright: 25px;
+	-webkit-border-bottom-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.CSSTableau table tr:first-child td:first-child {
+	-moz-border-radius-topleft: 25px;
+	-webkit-border-top-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.CSSTableau table tr:first-child td:last-child {
+	-moz-border-radius-topright: 25px;
+	-webkit-border-top-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.CSSTableau tr:last-child td:first-child {
+	-moz-border-radius-bottomleft: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.CSSTableau tr:hover td {
+	
+}
+
+.CSSTableau tr:nth-child(odd) {
+	background-color: #3592f4;
+}
+
+.CSSTableau tr:nth-child(even) {
+	background-color: #64e8e7;
+}
+
+.CSSTableau td {
+	vertical-align: middle;
+	border: 1px solid #000000;
+	border-width: 0px 1px 1px 0px;
+	text-align: center;
+	padding: 13px;
+	font-size: 10px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #000000;
+}
+
+.CSSTableau tr:last-child td {
+	border-width: 0px 1px 0px 0px;
+}
+
+.CSSTableau tr td:last-child {
+	border-width: 0px 0px 1px 0px;
+}
+
+.CSSTableau tr:last-child td:last-child {
+	border-width: 0px 0px 0px 0px;
+}
+
+.CSSTableau tr:first-child td {
+	background: -o-linear-gradient(bottom, #12d6e8 5%, #007f7f 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #12d6e8
+		), color-stop(1, #007f7f));
+	background: -moz-linear-gradient(center top, #12d6e8 5%, #007f7f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#12d6e8",
+		endColorstr="#007f7f");
+	background: -o-linear-gradient(top, #12d6e8, 007f7f);
+	background-color: #12d6e8;
+	border: 0px solid #000000;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.CSSTableau tr:first-child:hover td {
+	background: -o-linear-gradient(bottom, #12d6e8 5%, #007f7f 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #12d6e8
+		), color-stop(1, #007f7f));
+	background: -moz-linear-gradient(center top, #12d6e8 5%, #007f7f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#12d6e8",
+		endColorstr="#007f7f");
+	background: -o-linear-gradient(top, #12d6e8, 007f7f);
+	background-color: #12d6e8;
+}
+
+.CSSTableau tr:first-child td:first-child {
+	border-width: 0px 0px 1px 0px;
+}
+
+.CSSTableau tr:first-child td:last-child {
+	border-width: 0px 0px 1px 1px;
+}
